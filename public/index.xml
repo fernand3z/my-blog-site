@@ -15,5 +15,12 @@
       <guid>http://localhost:1313/posts/my-first-post/my-first-post/</guid>
       <description>Welcome to my first blog post!</description>
     </item>
+    <item>
+      <title>Getting Started with Rust: A Language Built for Safety</title>
+      <link>http://localhost:1313/posts/getting-started-with-rust/</link>
+      <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/getting-started-with-rust/</guid>
+      <description>An introduction to Rust programming language and its key features</description>
+    </item>
   </channel>
 </rss>
