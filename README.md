@@ -146,6 +146,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Hugo](https://gohugo.io/)
 - [PaperMod Theme](https://github.com/adityatelange/hugo-PaperMod)
 - [All Contributors](../../contributors)
-
----
-Made with ❤️ by [Your Name] 
