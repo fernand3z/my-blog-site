@@ -1,0 +1,30 @@
+# Hugo specific
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+.hugo_build.lock
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temporary files
+*~
+*.bak
+
+# Node modules (if using any Node.js based tools)
+node_modules/
+
+# Local environment files
+.env
+.env.local
+
+# Log files
+*.log 
