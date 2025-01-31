@@ -1,6 +1,6 @@
 baseURL: https://fernand3z.dev/
 languageCode: en-us
-title: DevLogz
+title: DevLogg
 paginate: 5
 theme: ["PaperMod"]
 
@@ -72,16 +72,16 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "Wlcome to DevLogz \U0001F44B \U0001F310"
+    Content: Devlogz is a blog dedicated to sharing developer insights, technical tutorials, and personal project updates. It serves as a digital log—where software engineers, hobbyists, and tech enthusiasts can find practical tips, coding best practices, and behind-the-scenes stories about building modern software. Whether you’re exploring a new programming language, digging into frameworks, or following along with real-world project logs, Devlogz is a hub for learning, inspiration, and developer-driven discussions.
 
   socialIcons:
     - name: x
-      url: "https://x.com/"
+      url: "https://x.com/fernand3zdev"
     - name: stackoverflow
       url: "https://stackoverflow.com"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/fernand3z"
 
   analytics:
     google:

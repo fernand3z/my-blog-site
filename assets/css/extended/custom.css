@@ -15,6 +15,11 @@
     --border-opacity: 0.4;
     --backdrop-blur: 40px;
     --header-height: 64px;
+
+    /* Button colors */
+    --foreground: #111111;
+    --muted-foreground: #666666;
+    --background-rgb: 255, 255, 255;
 }
 
 .dark {
@@ -33,6 +38,11 @@
     --bg-opacity: 0.5;
     --border-opacity: 0.4;
     --backdrop-blur: 40px;
+
+    /* Button colors for dark mode */
+    --foreground: #ffffff;
+    --background-rgb: 12, 10, 9;  /* Updated to match #0C0A09 */
+    --muted-foreground: rgba(255, 255, 255, 0.6);
 }
 
 /* Header styles with updated values */
@@ -64,4 +74,62 @@
 /* Main content padding */
 .main {
     padding-top: calc(var(--header-height) + 20px) !important;
+}
+
+/* Menu button styling */
+.menu-item {
+    padding: 0.35rem 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    text-transform: capitalize;
+    border-radius: 0.375rem;
+    transition: color 0.15s, background-color 0.15s;
+    border: none;
+    cursor: pointer;
+    text-decoration: none !important;
+    display: inline-flex;
+    align-items: center;
+}
+
+/* Inactive state */
+.menu-item {
+    color: var(--muted-foreground);
+    border-bottom: none !important;
+}
+
+.menu-item:hover {
+    color: var(--foreground);
+    background-color: rgba(var(--background-rgb), 0.5);
+    text-decoration: none;
+    border-bottom: none !important;
+}
+
+.dark .menu-item:hover {
+    color: var(--foreground);
+    background-color: #0E0C0A;
+    border-bottom: none !important;
+}
+
+/* Active state */
+.menu-item.active {
+    color: var(--foreground);
+    font-weight: 500;
+    background-color: rgba(var(--background-rgb), 0.5);
+    text-decoration: none;
+    border-bottom: none !important;
+}
+
+.dark .menu-item.active {
+    background-color: #0E0C0A;
+    text-decoration: none;
+    border-bottom: none !important;
+}
+
+/* Additional override for any theme-specific underlines */
+#menu a:after {
+    display: none !important;
+}
+
+#menu a span {
+    border-bottom: none !important;
 } 
