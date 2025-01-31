@@ -1,0 +1,67 @@
+:root {
+    /* Light theme colors */
+    --background-light: hsl(0 0% 100%);
+    --foreground-light: hsl(240 10% 3.9%);
+    --muted-light: hsl(240 4.8% 95.9%);
+    --muted-foreground-light: hsl(240 3.8% 46.1%);
+    
+    /* Convert to RGB for transparency */
+    --theme-rgb: 255, 255, 255;  /* white background */
+    --primary-rgb: 9, 9, 11;     /* dark foreground */
+    --border-rgb: 244, 244, 245; /* muted background */
+    
+    /* Opacity variables */
+    --bg-opacity: 0.5;
+    --border-opacity: 0.4;
+    --backdrop-blur: 40px;
+    --header-height: 64px;
+}
+
+.dark {
+    /* Dark theme colors */
+    --background-dark: hsl(20 14.3% 4.1%);
+    --foreground-dark: hsl(0 0% 95%);
+    --muted-dark: hsl(0 0% 15%);
+    --muted-foreground-dark: hsl(240 5% 64.9%);
+    
+    /* Convert to RGB for transparency */
+    --theme-rgb: 12, 10, 9;      /* dark background */
+    --primary-rgb: 242, 242, 242; /* light foreground */
+    --border-rgb: 38, 38, 38;    /* muted background */
+    
+    /* Dark mode opacity */
+    --bg-opacity: 0.5;
+    --border-opacity: 0.4;
+    --backdrop-blur: 40px;
+}
+
+/* Header styles with updated values */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background: rgba(var(--theme-rgb), var(--bg-opacity)) !important;
+    backdrop-filter: blur(var(--backdrop-blur));
+    -webkit-backdrop-filter: blur(var(--backdrop-blur));
+    border-bottom: 1px solid rgba(var(--border-rgb), var(--border-opacity));
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Navigation text colors */
+.nav {
+    color: var(--foreground-light);
+    height: 64px;
+    display: flex;
+    align-items: center;
+}
+
+.dark .nav {
+    color: var(--foreground-dark);
+}
+
+/* Main content padding */
+.main {
+    padding-top: calc(var(--header-height) + 20px) !important;
+} 

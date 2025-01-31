@@ -1,10 +1,8 @@
 baseURL: https://fernand3z.dev/
 languageCode: en-us
-title: blog-site
+title: DevLogz
 paginate: 5
 theme: ["PaperMod"]
-params:
-  defaultTheme: dark # to switch between dark or light according to browser theme
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -24,7 +22,7 @@ params:
   # author: ["Me", "You"] # multiple authors
   images: [] # remove the placeholder and leave empty array for now
   DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
+  defaultTheme: dark # dark, light
   disableThemeToggle: false
 
   ShowReadingTime: true
@@ -46,16 +44,16 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon.ico"
+    favicon32x32: "/favicon.ico"
+    apple_touch_icon: "/favicon.ico"
+    safari_pinned_tab: "/favicon.ico"
 
   label:
-    text: "Home"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
+    text: "DevLogz"
+    icon: /favicon.ico
+    iconHeight: 30
 
   # profile-mode
   profileMode:
@@ -116,6 +114,10 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 5
     - identifier: search
       name: Search
       url: /search/
