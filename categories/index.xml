@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on DevLogg</title>
-    <link>https://fernand3z.dev/categories/</link>
+    <link>https://blog.fernand3z.dev/categories/</link>
     <description>Recent content in Categories on DevLogg</description>
     <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 31 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://fernand3z.dev/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.fernand3z.dev/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog</title>
-      <link>https://fernand3z.dev/categories/blog/</link>
+      <link>https://blog.fernand3z.dev/categories/blog/</link>
       <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/categories/blog/</guid>
+      <guid>https://blog.fernand3z.dev/categories/blog/</guid>
       <description></description>
     </item>
     <item>
       <title>Programming</title>
-      <link>https://fernand3z.dev/categories/programming/</link>
+      <link>https://blog.fernand3z.dev/categories/programming/</link>
       <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/categories/programming/</guid>
+      <guid>https://blog.fernand3z.dev/categories/programming/</guid>
       <description></description>
     </item>
     <item>
       <title>Devops</title>
-      <link>https://fernand3z.dev/categories/devops/</link>
+      <link>https://blog.fernand3z.dev/categories/devops/</link>
       <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/categories/devops/</guid>
+      <guid>https://blog.fernand3z.dev/categories/devops/</guid>
       <description></description>
     </item>
     <item>
       <title>Artificial-Intelligence</title>
-      <link>https://fernand3z.dev/categories/artificial-intelligence/</link>
+      <link>https://blog.fernand3z.dev/categories/artificial-intelligence/</link>
       <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/categories/artificial-intelligence/</guid>
+      <guid>https://blog.fernand3z.dev/categories/artificial-intelligence/</guid>
       <description></description>
     </item>
     <item>
       <title>Security</title>
-      <link>https://fernand3z.dev/categories/security/</link>
+      <link>https://blog.fernand3z.dev/categories/security/</link>
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/categories/security/</guid>
+      <guid>https://blog.fernand3z.dev/categories/security/</guid>
       <description></description>
     </item>
     <item>
       <title>Web-Development</title>
-      <link>https://fernand3z.dev/categories/web-development/</link>
+      <link>https://blog.fernand3z.dev/categories/web-development/</link>
       <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/categories/web-development/</guid>
+      <guid>https://blog.fernand3z.dev/categories/web-development/</guid>
       <description></description>
     </item>
     <item>
       <title>Cloud-Computing</title>
-      <link>https://fernand3z.dev/categories/cloud-computing/</link>
+      <link>https://blog.fernand3z.dev/categories/cloud-computing/</link>
       <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/categories/cloud-computing/</guid>
+      <guid>https://blog.fernand3z.dev/categories/cloud-computing/</guid>
       <description></description>
     </item>
     <item>
       <title>Version-Control</title>
-      <link>https://fernand3z.dev/categories/version-control/</link>
+      <link>https://blog.fernand3z.dev/categories/version-control/</link>
       <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/categories/version-control/</guid>
+      <guid>https://blog.fernand3z.dev/categories/version-control/</guid>
       <description></description>
     </item>
   </channel>

@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://fernand3z.dev/sitemap.xml
+Sitemap: https://blog.fernand3z.dev/sitemap.xml

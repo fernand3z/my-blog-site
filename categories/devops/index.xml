@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Devops on DevLogg</title>
-    <link>https://fernand3z.dev/categories/devops/</link>
+    <link>https://blog.fernand3z.dev/categories/devops/</link>
     <description>Recent content in Devops on DevLogg</description>
     <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 29 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://fernand3z.dev/categories/devops/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.fernand3z.dev/categories/devops/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Docker Containers: A Practical Guide</title>
-      <link>https://fernand3z.dev/posts/docker-containers-explained/</link>
+      <link>https://blog.fernand3z.dev/posts/docker-containers-explained/</link>
       <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/posts/docker-containers-explained/</guid>
+      <guid>https://blog.fernand3z.dev/posts/docker-containers-explained/</guid>
       <description>Understanding Docker containers and their role in modern development</description>
     </item>
     <item>
       <title>Kubernetes for Beginners: Container Orchestration Made Simple</title>
-      <link>https://fernand3z.dev/posts/kubernetes-for-beginners/</link>
+      <link>https://blog.fernand3z.dev/posts/kubernetes-for-beginners/</link>
       <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/posts/kubernetes-for-beginners/</guid>
+      <guid>https://blog.fernand3z.dev/posts/kubernetes-for-beginners/</guid>
       <description>A beginner&amp;#39;s guide to understanding Kubernetes and container orchestration</description>
     </item>
   </channel>

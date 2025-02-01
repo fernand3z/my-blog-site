@@ -2,213 +2,213 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on DevLogg</title>
-    <link>https://fernand3z.dev/tags/</link>
+    <link>https://blog.fernand3z.dev/tags/</link>
     <description>Recent content in Tags on DevLogg</description>
     <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 31 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://fernand3z.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.fernand3z.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog</title>
-      <link>https://fernand3z.dev/tags/blog/</link>
+      <link>https://blog.fernand3z.dev/tags/blog/</link>
       <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/blog/</guid>
+      <guid>https://blog.fernand3z.dev/tags/blog/</guid>
       <description></description>
     </item>
     <item>
       <title>First</title>
-      <link>https://fernand3z.dev/tags/first/</link>
+      <link>https://blog.fernand3z.dev/tags/first/</link>
       <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/first/</guid>
+      <guid>https://blog.fernand3z.dev/tags/first/</guid>
       <description></description>
     </item>
     <item>
       <title>Programming</title>
-      <link>https://fernand3z.dev/tags/programming/</link>
+      <link>https://blog.fernand3z.dev/tags/programming/</link>
       <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/programming/</guid>
+      <guid>https://blog.fernand3z.dev/tags/programming/</guid>
       <description></description>
     </item>
     <item>
       <title>Rust</title>
-      <link>https://fernand3z.dev/tags/rust/</link>
+      <link>https://blog.fernand3z.dev/tags/rust/</link>
       <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/rust/</guid>
+      <guid>https://blog.fernand3z.dev/tags/rust/</guid>
       <description></description>
     </item>
     <item>
       <title>Systems</title>
-      <link>https://fernand3z.dev/tags/systems/</link>
+      <link>https://blog.fernand3z.dev/tags/systems/</link>
       <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/systems/</guid>
+      <guid>https://blog.fernand3z.dev/tags/systems/</guid>
       <description></description>
     </item>
     <item>
       <title>Tech</title>
-      <link>https://fernand3z.dev/tags/tech/</link>
+      <link>https://blog.fernand3z.dev/tags/tech/</link>
       <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/tech/</guid>
+      <guid>https://blog.fernand3z.dev/tags/tech/</guid>
       <description></description>
     </item>
     <item>
       <title>Containers</title>
-      <link>https://fernand3z.dev/tags/containers/</link>
+      <link>https://blog.fernand3z.dev/tags/containers/</link>
       <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/containers/</guid>
+      <guid>https://blog.fernand3z.dev/tags/containers/</guid>
       <description></description>
     </item>
     <item>
       <title>Devops</title>
-      <link>https://fernand3z.dev/tags/devops/</link>
+      <link>https://blog.fernand3z.dev/tags/devops/</link>
       <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/devops/</guid>
+      <guid>https://blog.fernand3z.dev/tags/devops/</guid>
       <description></description>
     </item>
     <item>
       <title>Docker</title>
-      <link>https://fernand3z.dev/tags/docker/</link>
+      <link>https://blog.fernand3z.dev/tags/docker/</link>
       <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/docker/</guid>
+      <guid>https://blog.fernand3z.dev/tags/docker/</guid>
       <description></description>
     </item>
     <item>
       <title>AI</title>
-      <link>https://fernand3z.dev/tags/ai/</link>
+      <link>https://blog.fernand3z.dev/tags/ai/</link>
       <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/ai/</guid>
+      <guid>https://blog.fernand3z.dev/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Machine-Learning</title>
-      <link>https://fernand3z.dev/tags/machine-learning/</link>
+      <link>https://blog.fernand3z.dev/tags/machine-learning/</link>
       <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/machine-learning/</guid>
+      <guid>https://blog.fernand3z.dev/tags/machine-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>https://fernand3z.dev/tags/python/</link>
+      <link>https://blog.fernand3z.dev/tags/python/</link>
       <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/python/</guid>
+      <guid>https://blog.fernand3z.dev/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>Cybersecurity</title>
-      <link>https://fernand3z.dev/tags/cybersecurity/</link>
+      <link>https://blog.fernand3z.dev/tags/cybersecurity/</link>
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/cybersecurity/</guid>
+      <guid>https://blog.fernand3z.dev/tags/cybersecurity/</guid>
       <description></description>
     </item>
     <item>
       <title>Security</title>
-      <link>https://fernand3z.dev/tags/security/</link>
+      <link>https://blog.fernand3z.dev/tags/security/</link>
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/security/</guid>
+      <guid>https://blog.fernand3z.dev/tags/security/</guid>
       <description></description>
     </item>
     <item>
       <title>Web-Dev</title>
-      <link>https://fernand3z.dev/tags/web-dev/</link>
+      <link>https://blog.fernand3z.dev/tags/web-dev/</link>
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/web-dev/</guid>
+      <guid>https://blog.fernand3z.dev/tags/web-dev/</guid>
       <description></description>
     </item>
     <item>
       <title>Kubernetes</title>
-      <link>https://fernand3z.dev/tags/kubernetes/</link>
+      <link>https://blog.fernand3z.dev/tags/kubernetes/</link>
       <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/kubernetes/</guid>
+      <guid>https://blog.fernand3z.dev/tags/kubernetes/</guid>
       <description></description>
     </item>
     <item>
       <title>Api</title>
-      <link>https://fernand3z.dev/tags/api/</link>
+      <link>https://blog.fernand3z.dev/tags/api/</link>
       <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/api/</guid>
+      <guid>https://blog.fernand3z.dev/tags/api/</guid>
       <description></description>
     </item>
     <item>
       <title>Graphql</title>
-      <link>https://fernand3z.dev/tags/graphql/</link>
+      <link>https://blog.fernand3z.dev/tags/graphql/</link>
       <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/graphql/</guid>
+      <guid>https://blog.fernand3z.dev/tags/graphql/</guid>
       <description></description>
     </item>
     <item>
       <title>Rest</title>
-      <link>https://fernand3z.dev/tags/rest/</link>
+      <link>https://blog.fernand3z.dev/tags/rest/</link>
       <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/rest/</guid>
+      <guid>https://blog.fernand3z.dev/tags/rest/</guid>
       <description></description>
     </item>
     <item>
       <title>Javascript</title>
-      <link>https://fernand3z.dev/tags/javascript/</link>
+      <link>https://blog.fernand3z.dev/tags/javascript/</link>
       <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/javascript/</guid>
+      <guid>https://blog.fernand3z.dev/tags/javascript/</guid>
       <description></description>
     </item>
     <item>
       <title>Typescript</title>
-      <link>https://fernand3z.dev/tags/typescript/</link>
+      <link>https://blog.fernand3z.dev/tags/typescript/</link>
       <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/typescript/</guid>
+      <guid>https://blog.fernand3z.dev/tags/typescript/</guid>
       <description></description>
     </item>
     <item>
       <title>Architecture</title>
-      <link>https://fernand3z.dev/tags/architecture/</link>
+      <link>https://blog.fernand3z.dev/tags/architecture/</link>
       <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/architecture/</guid>
+      <guid>https://blog.fernand3z.dev/tags/architecture/</guid>
       <description></description>
     </item>
     <item>
       <title>Cloud</title>
-      <link>https://fernand3z.dev/tags/cloud/</link>
+      <link>https://blog.fernand3z.dev/tags/cloud/</link>
       <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/cloud/</guid>
+      <guid>https://blog.fernand3z.dev/tags/cloud/</guid>
       <description></description>
     </item>
     <item>
       <title>Microservices</title>
-      <link>https://fernand3z.dev/tags/microservices/</link>
+      <link>https://blog.fernand3z.dev/tags/microservices/</link>
       <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/microservices/</guid>
+      <guid>https://blog.fernand3z.dev/tags/microservices/</guid>
       <description></description>
     </item>
     <item>
       <title>Collaboration</title>
-      <link>https://fernand3z.dev/tags/collaboration/</link>
+      <link>https://blog.fernand3z.dev/tags/collaboration/</link>
       <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/collaboration/</guid>
+      <guid>https://blog.fernand3z.dev/tags/collaboration/</guid>
       <description></description>
     </item>
     <item>
       <title>Git</title>
-      <link>https://fernand3z.dev/tags/git/</link>
+      <link>https://blog.fernand3z.dev/tags/git/</link>
       <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/git/</guid>
+      <guid>https://blog.fernand3z.dev/tags/git/</guid>
       <description></description>
     </item>
     <item>
       <title>Ethics</title>
-      <link>https://fernand3z.dev/tags/ethics/</link>
+      <link>https://blog.fernand3z.dev/tags/ethics/</link>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/ethics/</guid>
+      <guid>https://blog.fernand3z.dev/tags/ethics/</guid>
       <description></description>
     </item>
     <item>
       <title>Optimization</title>
-      <link>https://fernand3z.dev/tags/optimization/</link>
+      <link>https://blog.fernand3z.dev/tags/optimization/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/optimization/</guid>
+      <guid>https://blog.fernand3z.dev/tags/optimization/</guid>
       <description></description>
     </item>
     <item>
       <title>Performance</title>
-      <link>https://fernand3z.dev/tags/performance/</link>
+      <link>https://blog.fernand3z.dev/tags/performance/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/performance/</guid>
+      <guid>https://blog.fernand3z.dev/tags/performance/</guid>
       <description></description>
     </item>
   </channel>

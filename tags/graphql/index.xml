@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Graphql on DevLogg</title>
-    <link>https://fernand3z.dev/tags/graphql/</link>
+    <link>https://blog.fernand3z.dev/tags/graphql/</link>
     <description>Recent content in Graphql on DevLogg</description>
     <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 25 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://fernand3z.dev/tags/graphql/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.fernand3z.dev/tags/graphql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GraphQL vs REST: Choosing the Right API Architecture</title>
-      <link>https://fernand3z.dev/posts/graphql-vs-rest/</link>
+      <link>https://blog.fernand3z.dev/posts/graphql-vs-rest/</link>
       <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/posts/graphql-vs-rest/</guid>
+      <guid>https://blog.fernand3z.dev/posts/graphql-vs-rest/</guid>
       <description>A comprehensive comparison of GraphQL and REST API architectures</description>
     </item>
   </channel>
