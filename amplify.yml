@@ -14,7 +14,8 @@ frontend:
         - hugo version
     build:
       commands:
-        - hugo --minify --baseURL $BASEURL
+        # Build with additional flags for better debugging and output
+        - hugo --minify --baseURL $BASEURL --logLevel info --cleanDestinationDir --enableGitInfo --debug --printPathWarnings --gc
   artifacts:
     # Directory containing the generated site
     baseDirectory: public
