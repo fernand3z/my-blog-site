@@ -1,0 +1,37 @@
+name: Deploy Hugo site to GitHub Pages
+
+# Trigger the workflow on pushes to the master branch.
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Check out the repository.
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          submodules: true  # Remove this line if you are not using submodules
+
+      # Step 2: Set up Hugo.
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'  # Or specify a particular version, e.g., '0.112.5'
+
+      # Step 3: Build the site.
+      - name: Build site
+        run: hugo --minify
+
+      # Step 4: Deploy to GitHub Pages.
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          # If you use a custom domain, uncomment and update the next line:
+          # cname: yourcustomdomain.com
