@@ -78,6 +78,124 @@
 .archive-posts {
     padding-top: 0;
 }
+
+/* Mobile menu button */
+.menu-btn {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-left: auto;
+    z-index: 1000;
+}
+
+.menu-btn svg {
+    width: 24px;
+    height: 24px;
+    fill: var(--primary);
+}
+
+/* Close button styles */
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: background-color 0.2s;
+}
+
+.close-btn:hover {
+    background-color: rgba(var(--primary), 0.1);
+}
+
+.close-btn svg {
+    width: 24px;
+    height: 24px;
+    stroke: var(--primary);
+    stroke-width: 2;
+}
+
+/* Sidebar styles */
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 175px;
+    height: 100vh;
+    background: var(--theme);
+    transition: 0.3s;
+    z-index: 999;
+    padding: 80px 20px 20px;
+    overflow-y: auto;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-left: 1px solid rgba(var(--border), 0.2);
+}
+
+.sidebar.active {
+    right: 0;
+}
+
+/* Overlay for mobile menu */
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 998;
+}
+
+.overlay.active {
+    display: block;
+}
+
+/* Mobile menu styles */
+@media (max-width: 768px) {
+    .menu-btn {
+        display: block;
+    }
+    
+    #menu {
+        display: none;
+    }
+    
+    .sidebar #menu, .sidebar #mobile-menu {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .sidebar .menu-item {
+        font-size: 0.95em;
+        text-decoration: none;
+        transition: color 0.2s;
+    }
+
+    .sidebar li {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+/* Debug logs */
+.debug-log {
+    display: none;
+}
 </style>
 
 <header class="header">
@@ -161,6 +279,15 @@
             </div>
         </div>
         {{- $currentPage := . }}
+        
+        <!-- Mobile menu button -->
+        <button class="menu-btn" aria-label="Toggle mobile menu">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+            </svg>
+        </button>
+        
+        <!-- Regular menu -->
         <ul id="menu">
             {{- range site.Menus.main }}
             {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}
@@ -188,4 +315,77 @@
             {{- end }}
         </ul>
     </nav>
-</header> 
+</header>
+
+<!-- Mobile sidebar -->
+<div class="sidebar">
+    <!-- Close button -->
+    <button class="close-btn" aria-label="Close mobile menu">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path d="M18 6L6 18M6 6l12 12"></path>
+        </svg>
+    </button>
+    <ul id="mobile-menu">
+        {{- range site.Menus.main }}
+        {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}
+        {{- $page_url:= $currentPage.Permalink | absLangURL }}
+        {{- $is_search := eq (site.GetPage .KeyName).Layout `search` }}
+        <li>
+            <a href="{{ .URL | absLangURL }}" 
+               class="menu-item{{ if eq $menu_item_url $page_url }} active{{ end }}"
+               title="{{ .Title | default .Name }} {{- cond $is_search (" (Alt + /)" | safeHTMLAttr) ("" | safeHTMLAttr ) }}"
+               {{- cond $is_search (" accesskey=/" | safeHTMLAttr) ("" | safeHTMLAttr ) }}
+               {{- if eq .Identifier "example" }} target="_blank" rel="noopener noreferrer"{{- end }}>
+                {{- .Pre }}
+                {{- .Name -}}
+                {{ .Post -}}
+                {{- if (findRE "://" .URL) }}&nbsp;
+                <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                    <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                    <path d="M15 3h6v6"></path>
+                    <path d="M10 14L21 3"></path>
+                </svg>
+                {{- end }}
+            </a>
+        </li>
+        {{- end }}
+    </ul>
+</div>
+
+<!-- Overlay for mobile menu -->
+<div class="overlay"></div>
+
+<script>
+    // Debug log function
+    function debugLog(message) {
+        console.log(`[Mobile Menu Debug] ${message}`);
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const menuBtn = document.querySelector('.menu-btn');
+        const closeBtn = document.querySelector('.close-btn');
+        const sidebar = document.querySelector('.sidebar');
+        const overlay = document.querySelector('.overlay');
+        
+        debugLog('Mobile menu initialized');
+        
+        function toggleMenu() {
+            sidebar.classList.toggle('active');
+            overlay.classList.toggle('active');
+            debugLog('Menu toggled');
+        }
+        
+        menuBtn.addEventListener('click', toggleMenu);
+        closeBtn.addEventListener('click', toggleMenu);
+        overlay.addEventListener('click', toggleMenu);
+        
+        // Close menu on escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && sidebar.classList.contains('active')) {
+                toggleMenu();
+                debugLog('Menu closed with Escape key');
+            }
+        });
+    });
+</script> 

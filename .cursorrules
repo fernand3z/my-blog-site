@@ -1,0 +1,59 @@
+ My Hugo Blog Site
+
+ This file provides guidance to the Cursor AI Code Editor
+ on how to generate, refactor, and maintain code for your Hugo project.
+
+Instructions:
+  - Always add debug logs & comments in the code for easier debugging and reliability.
+  - Every time you apply a rule, explicitly state the rule(s) in the output.
+  - You may abbreviate the rule description to a single word or phrase (e.g., "debug" or "structure").
+  - Include relevant triggers and actions to ensure the code editor follows these rules consistently.
+
+rules:
+  - name: "debug-logs"
+    description: >
+      Whenever you generate or refactor code, add debug logs (e.g., console/log printouts)
+      and explanatory comments to improve readability and ease of debugging.
+    # Example usage:
+    # - "Applying rule 'debug-logs' here to add console.log statements and inline comments."
+    triggers: [ "generate-code", "refactor-code", "any-code-change" ]
+
+  - name: "explicit-reference"
+    description: >
+      Always explicitly state which rule(s) you are applying in your output.
+      This can be abbreviated or listed in brackets, but must be visible.
+    # Example usage:
+    # - "Applying rule 'explicit-reference' to mention the rule name in the output."
+
+  - name: "no-secrets"
+    description: >
+      Avoid committing or exposing any sensitive data (API keys, tokens, passwords).
+      Should any appear, redact them or keep them out of version control.
+    # Example usage:
+    # - "Applying rule 'no-secrets' to ensure no API keys are visible."
+
+  - name: "hugo-structure"
+    description: >
+      Follow Hugo’s standard project structure:
+       - 'content/' for markdown files
+       - 'layouts/' for templates
+       - 'static/' for static assets
+       - 'themes/<themeName>/' for your custom theme
+      Add debug logs or comments whenever you create or move files.
+    triggers: [ "create-content", "create-layouts", "create-static", "create-theme" ]
+
+  - name: "theme-guidelines"
+    description: >
+      When working on the custom theme:
+       - Keep partials in 'layouts/partials'
+       - Place shortcodes in 'layouts/shortcodes'
+       - Adhere to best practices for maintainability
+      Always add debug logs & comments for clarity on logic or style changes.
+    triggers: [ "theme", "partials", "shortcodes" ]
+
+  - name: "config-management"
+    description: >
+      When editing the main Hugo config (config.toml/config.yaml/config.json), 
+      maintain consistent formatting and add comments explaining changes.
+      Ensure debug logs or version notes are included where relevant.
+    triggers: [ "config", "settings", "configuration" ]
