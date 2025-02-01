@@ -2,167 +2,167 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://fernand3z.dev/tags/blog/</loc>
+    <loc>http://localhost:1313/tags/blog/</loc>
     <lastmod>2024-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/categories/blog/</loc>
+    <loc>http://localhost:1313/categories/blog/</loc>
     <lastmod>2024-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2024-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2024-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/tags/first/</loc>
+    <loc>http://localhost:1313/tags/first/</loc>
     <lastmod>2024-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/posts/my-first-post/my-first-post/</loc>
+    <loc>http://localhost:1313/posts/my-first-post/my-first-post/</loc>
     <lastmod>2024-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2024-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/posts/getting-started-with-rust/</loc>
+    <loc>http://localhost:1313/posts/getting-started-with-rust/</loc>
     <lastmod>2024-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/tags/programming/</loc>
+    <loc>http://localhost:1313/tags/programming/</loc>
     <lastmod>2024-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/categories/programming/</loc>
+    <loc>http://localhost:1313/categories/programming/</loc>
     <lastmod>2024-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/tags/rust/</loc>
+    <loc>http://localhost:1313/tags/rust/</loc>
     <lastmod>2024-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/tags/systems/</loc>
+    <loc>http://localhost:1313/tags/systems/</loc>
     <lastmod>2024-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/tags/tech/</loc>
+    <loc>http://localhost:1313/tags/tech/</loc>
     <lastmod>2024-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/tags/containers/</loc>
+    <loc>http://localhost:1313/tags/containers/</loc>
     <lastmod>2024-01-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/tags/devops/</loc>
+    <loc>http://localhost:1313/tags/devops/</loc>
     <lastmod>2024-01-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/categories/devops/</loc>
+    <loc>http://localhost:1313/categories/devops/</loc>
     <lastmod>2024-01-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/tags/docker/</loc>
+    <loc>http://localhost:1313/tags/docker/</loc>
     <lastmod>2024-01-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/posts/docker-containers-explained/</loc>
+    <loc>http://localhost:1313/posts/docker-containers-explained/</loc>
     <lastmod>2024-01-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/tags/ai/</loc>
+    <loc>http://localhost:1313/tags/ai/</loc>
     <lastmod>2024-01-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/categories/artificial-intelligence/</loc>
+    <loc>http://localhost:1313/categories/artificial-intelligence/</loc>
     <lastmod>2024-01-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/posts/machine-learning-basics/</loc>
+    <loc>http://localhost:1313/posts/machine-learning-basics/</loc>
     <lastmod>2024-01-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/tags/machine-learning/</loc>
+    <loc>http://localhost:1313/tags/machine-learning/</loc>
     <lastmod>2024-01-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/tags/python/</loc>
+    <loc>http://localhost:1313/tags/python/</loc>
     <lastmod>2024-01-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/tags/cybersecurity/</loc>
+    <loc>http://localhost:1313/tags/cybersecurity/</loc>
     <lastmod>2024-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/tags/security/</loc>
+    <loc>http://localhost:1313/tags/security/</loc>
     <lastmod>2024-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/categories/security/</loc>
+    <loc>http://localhost:1313/categories/security/</loc>
     <lastmod>2024-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/posts/web-security-essentials/</loc>
+    <loc>http://localhost:1313/posts/web-security-essentials/</loc>
     <lastmod>2024-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/tags/web-dev/</loc>
+    <loc>http://localhost:1313/tags/web-dev/</loc>
     <lastmod>2024-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/tags/kubernetes/</loc>
+    <loc>http://localhost:1313/tags/kubernetes/</loc>
     <lastmod>2024-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/posts/kubernetes-for-beginners/</loc>
+    <loc>http://localhost:1313/posts/kubernetes-for-beginners/</loc>
     <lastmod>2024-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/tags/api/</loc>
+    <loc>http://localhost:1313/tags/api/</loc>
     <lastmod>2024-01-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/tags/graphql/</loc>
+    <loc>http://localhost:1313/tags/graphql/</loc>
     <lastmod>2024-01-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/posts/graphql-vs-rest/</loc>
+    <loc>http://localhost:1313/posts/graphql-vs-rest/</loc>
     <lastmod>2024-01-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/tags/rest/</loc>
+    <loc>http://localhost:1313/tags/rest/</loc>
     <lastmod>2024-01-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/categories/web-development/</loc>
+    <loc>http://localhost:1313/categories/web-development/</loc>
     <lastmod>2024-01-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/tags/javascript/</loc>
+    <loc>http://localhost:1313/tags/javascript/</loc>
     <lastmod>2024-01-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/tags/typescript/</loc>
+    <loc>http://localhost:1313/tags/typescript/</loc>
     <lastmod>2024-01-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/posts/typescript-best-practices/</loc>
+    <loc>http://localhost:1313/posts/typescript-best-practices/</loc>
     <lastmod>2024-01-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/tags/architecture/</loc>
+    <loc>http://localhost:1313/tags/architecture/</loc>
     <lastmod>2024-01-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/tags/cloud/</loc>
+    <loc>http://localhost:1313/tags/cloud/</loc>
     <lastmod>2024-01-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/posts/cloud-native-architecture/</loc>
+    <loc>http://localhost:1313/posts/cloud-native-architecture/</loc>
     <lastmod>2024-01-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/categories/cloud-computing/</loc>
+    <loc>http://localhost:1313/categories/cloud-computing/</loc>
     <lastmod>2024-01-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/tags/microservices/</loc>
+    <loc>http://localhost:1313/tags/microservices/</loc>
     <lastmod>2024-01-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/tags/collaboration/</loc>
+    <loc>http://localhost:1313/tags/collaboration/</loc>
     <lastmod>2024-01-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/tags/git/</loc>
+    <loc>http://localhost:1313/tags/git/</loc>
     <lastmod>2024-01-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/posts/git-workflow-mastery/</loc>
+    <loc>http://localhost:1313/posts/git-workflow-mastery/</loc>
     <lastmod>2024-01-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/categories/version-control/</loc>
+    <loc>http://localhost:1313/categories/version-control/</loc>
     <lastmod>2024-01-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/posts/ai-ethics-and-bias/</loc>
+    <loc>http://localhost:1313/posts/ai-ethics-and-bias/</loc>
     <lastmod>2024-01-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/tags/ethics/</loc>
+    <loc>http://localhost:1313/tags/ethics/</loc>
     <lastmod>2024-01-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/tags/optimization/</loc>
+    <loc>http://localhost:1313/tags/optimization/</loc>
     <lastmod>2024-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/tags/performance/</loc>
+    <loc>http://localhost:1313/tags/performance/</loc>
     <lastmod>2024-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/posts/web-performance-optimization/</loc>
+    <loc>http://localhost:1313/posts/web-performance-optimization/</loc>
     <lastmod>2024-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fernand3z.dev/archives/</loc>
+    <loc>http://localhost:1313/archives/</loc>
   </url><url>
-    <loc>https://fernand3z.dev/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
   </url>
 </urlset>

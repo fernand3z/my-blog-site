@@ -2,213 +2,213 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on DevLogg</title>
-    <link>https://fernand3z.dev/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on DevLogg</description>
     <generator>Hugo -- 0.126.2</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 31 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://fernand3z.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog</title>
-      <link>https://fernand3z.dev/tags/blog/</link>
+      <link>http://localhost:1313/tags/blog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/blog/</guid>
+      <guid>http://localhost:1313/tags/blog/</guid>
       <description></description>
     </item>
     <item>
       <title>First</title>
-      <link>https://fernand3z.dev/tags/first/</link>
+      <link>http://localhost:1313/tags/first/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/first/</guid>
+      <guid>http://localhost:1313/tags/first/</guid>
       <description></description>
     </item>
     <item>
       <title>Programming</title>
-      <link>https://fernand3z.dev/tags/programming/</link>
+      <link>http://localhost:1313/tags/programming/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/programming/</guid>
+      <guid>http://localhost:1313/tags/programming/</guid>
       <description></description>
     </item>
     <item>
       <title>Rust</title>
-      <link>https://fernand3z.dev/tags/rust/</link>
+      <link>http://localhost:1313/tags/rust/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/rust/</guid>
+      <guid>http://localhost:1313/tags/rust/</guid>
       <description></description>
     </item>
     <item>
       <title>Systems</title>
-      <link>https://fernand3z.dev/tags/systems/</link>
+      <link>http://localhost:1313/tags/systems/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/systems/</guid>
+      <guid>http://localhost:1313/tags/systems/</guid>
       <description></description>
     </item>
     <item>
       <title>Tech</title>
-      <link>https://fernand3z.dev/tags/tech/</link>
+      <link>http://localhost:1313/tags/tech/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/tech/</guid>
+      <guid>http://localhost:1313/tags/tech/</guid>
       <description></description>
     </item>
     <item>
       <title>Containers</title>
-      <link>https://fernand3z.dev/tags/containers/</link>
+      <link>http://localhost:1313/tags/containers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/containers/</guid>
+      <guid>http://localhost:1313/tags/containers/</guid>
       <description></description>
     </item>
     <item>
       <title>Devops</title>
-      <link>https://fernand3z.dev/tags/devops/</link>
+      <link>http://localhost:1313/tags/devops/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/devops/</guid>
+      <guid>http://localhost:1313/tags/devops/</guid>
       <description></description>
     </item>
     <item>
       <title>Docker</title>
-      <link>https://fernand3z.dev/tags/docker/</link>
+      <link>http://localhost:1313/tags/docker/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/docker/</guid>
+      <guid>http://localhost:1313/tags/docker/</guid>
       <description></description>
     </item>
     <item>
       <title>AI</title>
-      <link>https://fernand3z.dev/tags/ai/</link>
+      <link>http://localhost:1313/tags/ai/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/ai/</guid>
+      <guid>http://localhost:1313/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Machine-Learning</title>
-      <link>https://fernand3z.dev/tags/machine-learning/</link>
+      <link>http://localhost:1313/tags/machine-learning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/machine-learning/</guid>
+      <guid>http://localhost:1313/tags/machine-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>https://fernand3z.dev/tags/python/</link>
+      <link>http://localhost:1313/tags/python/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/python/</guid>
+      <guid>http://localhost:1313/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>Cybersecurity</title>
-      <link>https://fernand3z.dev/tags/cybersecurity/</link>
+      <link>http://localhost:1313/tags/cybersecurity/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/cybersecurity/</guid>
+      <guid>http://localhost:1313/tags/cybersecurity/</guid>
       <description></description>
     </item>
     <item>
       <title>Security</title>
-      <link>https://fernand3z.dev/tags/security/</link>
+      <link>http://localhost:1313/tags/security/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/security/</guid>
+      <guid>http://localhost:1313/tags/security/</guid>
       <description></description>
     </item>
     <item>
       <title>Web-Dev</title>
-      <link>https://fernand3z.dev/tags/web-dev/</link>
+      <link>http://localhost:1313/tags/web-dev/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/web-dev/</guid>
+      <guid>http://localhost:1313/tags/web-dev/</guid>
       <description></description>
     </item>
     <item>
       <title>Kubernetes</title>
-      <link>https://fernand3z.dev/tags/kubernetes/</link>
+      <link>http://localhost:1313/tags/kubernetes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/kubernetes/</guid>
+      <guid>http://localhost:1313/tags/kubernetes/</guid>
       <description></description>
     </item>
     <item>
       <title>Api</title>
-      <link>https://fernand3z.dev/tags/api/</link>
+      <link>http://localhost:1313/tags/api/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/api/</guid>
+      <guid>http://localhost:1313/tags/api/</guid>
       <description></description>
     </item>
     <item>
       <title>Graphql</title>
-      <link>https://fernand3z.dev/tags/graphql/</link>
+      <link>http://localhost:1313/tags/graphql/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/graphql/</guid>
+      <guid>http://localhost:1313/tags/graphql/</guid>
       <description></description>
     </item>
     <item>
       <title>Rest</title>
-      <link>https://fernand3z.dev/tags/rest/</link>
+      <link>http://localhost:1313/tags/rest/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/rest/</guid>
+      <guid>http://localhost:1313/tags/rest/</guid>
       <description></description>
     </item>
     <item>
       <title>Javascript</title>
-      <link>https://fernand3z.dev/tags/javascript/</link>
+      <link>http://localhost:1313/tags/javascript/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/javascript/</guid>
+      <guid>http://localhost:1313/tags/javascript/</guid>
       <description></description>
     </item>
     <item>
       <title>Typescript</title>
-      <link>https://fernand3z.dev/tags/typescript/</link>
+      <link>http://localhost:1313/tags/typescript/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/typescript/</guid>
+      <guid>http://localhost:1313/tags/typescript/</guid>
       <description></description>
     </item>
     <item>
       <title>Architecture</title>
-      <link>https://fernand3z.dev/tags/architecture/</link>
+      <link>http://localhost:1313/tags/architecture/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/architecture/</guid>
+      <guid>http://localhost:1313/tags/architecture/</guid>
       <description></description>
     </item>
     <item>
       <title>Cloud</title>
-      <link>https://fernand3z.dev/tags/cloud/</link>
+      <link>http://localhost:1313/tags/cloud/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/cloud/</guid>
+      <guid>http://localhost:1313/tags/cloud/</guid>
       <description></description>
     </item>
     <item>
       <title>Microservices</title>
-      <link>https://fernand3z.dev/tags/microservices/</link>
+      <link>http://localhost:1313/tags/microservices/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/microservices/</guid>
+      <guid>http://localhost:1313/tags/microservices/</guid>
       <description></description>
     </item>
     <item>
       <title>Collaboration</title>
-      <link>https://fernand3z.dev/tags/collaboration/</link>
+      <link>http://localhost:1313/tags/collaboration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/collaboration/</guid>
+      <guid>http://localhost:1313/tags/collaboration/</guid>
       <description></description>
     </item>
     <item>
       <title>Git</title>
-      <link>https://fernand3z.dev/tags/git/</link>
+      <link>http://localhost:1313/tags/git/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/git/</guid>
+      <guid>http://localhost:1313/tags/git/</guid>
       <description></description>
     </item>
     <item>
       <title>Ethics</title>
-      <link>https://fernand3z.dev/tags/ethics/</link>
+      <link>http://localhost:1313/tags/ethics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/ethics/</guid>
+      <guid>http://localhost:1313/tags/ethics/</guid>
       <description></description>
     </item>
     <item>
       <title>Optimization</title>
-      <link>https://fernand3z.dev/tags/optimization/</link>
+      <link>http://localhost:1313/tags/optimization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/optimization/</guid>
+      <guid>http://localhost:1313/tags/optimization/</guid>
       <description></description>
     </item>
     <item>
       <title>Performance</title>
-      <link>https://fernand3z.dev/tags/performance/</link>
+      <link>http://localhost:1313/tags/performance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/tags/performance/</guid>
+      <guid>http://localhost:1313/tags/performance/</guid>
       <description></description>
     </item>
   </channel>
