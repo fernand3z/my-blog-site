@@ -3,24 +3,35 @@ frontend:
   phases:
     preBuild:
       commands:
-        # Initialize git submodules (for theme)
+        # 1. Initialize submodules (e.g., Hugo theme) if present:
         - git submodule update --init --recursive
-        # Install Hugo in user's home directory
+
+        # 2. Download the Hugo extended tarball:
         - wget https://github.com/gohugoio/hugo/releases/download/v0.100.0/hugo_extended_0.100.0_Linux-64bit.tar.gz
+
+        # 3. Extract the tarball:
         - tar -xzf hugo_extended_0.100.0_Linux-64bit.tar.gz
+
+        # 4. Move Hugo to a local bin directory (no root permissions in Amplify):
         - mkdir -p ~/.local/bin
         - mv hugo ~/.local/bin/
+
+        # 5. Update PATH to include the local bin directory:
         - export PATH="$PATH:$HOME/.local/bin"
+
+        # 6. Verify the installed Hugo version:
         - hugo version
+
     build:
       commands:
-        # Build with additional flags for better debugging and output
+        # 7. Build with various helpful flags:
         - hugo --minify --baseURL $BASEURL --logLevel info --cleanDestinationDir --enableGitInfo --debug --printPathWarnings --gc
+
   artifacts:
-    # Directory containing the generated site
     baseDirectory: public
     files:
       - '**/*'
+
   cache:
     paths:
       - hugo_extended_0.100.0_Linux-64bit.tar.gz
