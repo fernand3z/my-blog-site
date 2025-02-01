@@ -3,19 +3,19 @@ frontend:
   phases:
     preBuild:
       commands:
-        # (Optional) Install Hugo if not provided in the environment.
-        # This example downloads a specific Hugo version. Adjust URL and version as needed.
-        - curl -L https://github.com/gohugoio/hugo/releases/download/v0.100.0/hugo_extended_0.100.0_Linux-64bit.deb -o hugo.deb
-        - sudo dpkg -i hugo.deb
+        # Install Hugo using tar instead of dpkg
+        - wget https://github.com/gohugoio/hugo/releases/download/v0.100.0/hugo_extended_0.100.0_linux-amd64.tar.gz
+        - tar -xzf hugo_extended_0.100.0_linux-amd64.tar.gz
+        - mv hugo /usr/local/bin/
         - hugo version
     build:
       commands:
         - hugo --minify
   artifacts:
-    # Specify the output directory for your generated site.
+    # Directory containing the generated site
     baseDirectory: public
     files:
       - '**/*'
   cache:
     paths:
-      - hugo.deb
+      - hugo_extended_0.100.0_linux-amd64.tar.gz
