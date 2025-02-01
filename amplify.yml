@@ -3,29 +3,30 @@ frontend:
   phases:
     preBuild:
       commands:
-        # 1. Initialize submodules (e.g., Hugo theme) if present:
+        # 1. Initialize submodules (if you're using themes or modules)
         - git submodule update --init --recursive
 
-        # 2. Download the Hugo extended tarball:
-        - wget https://github.com/gohugoio/hugo/releases/download/v0.100.0/hugo_extended_0.100.0_Linux-64bit.tar.gz
+        # 2. Download the Hugo extended version
+        - wget https://github.com/gohugoio/hugo/releases/download/v0.100.0/hugo_extended_0.100.0_Linux-64bit.tar.gz -O hugo.tar.gz
 
-        # 3. Extract the tarball:
-        - tar -xzf hugo_extended_0.100.0_Linux-64bit.tar.gz
+        # 3. Extract the tarball
+        - tar -xzf hugo.tar.gz
 
-        # 4. Move Hugo to a local bin directory (no root permissions in Amplify):
+        # 4. Place Hugo in a local bin directory (no root privileges in Amplify)
         - mkdir -p ~/.local/bin
-        - mv hugo ~/.local/bin/
+        - mv hugo ~/.local/bin/hugo
+        - chmod +x ~/.local/bin/hugo
 
-        # 5. Update PATH to include the local bin directory:
-        - export PATH="$PATH:$HOME/.local/bin"
+        # 5. Update PATH to include the local bin directory
+        - export PATH=$PATH:$HOME/.local/bin
 
-        # 6. Verify the installed Hugo version:
+        # 6. Verify installation
         - hugo version
 
     build:
       commands:
-        # 7. Build with various helpful flags:
-        - hugo --minify --baseURL $BASEURL --logLevel info --cleanDestinationDir --enableGitInfo --debug --printPathWarnings --gc
+        # Build the site with your desired flags
+        - hugo --minify --baseURL $BASEURL --cleanDestinationDir --gc
 
   artifacts:
     baseDirectory: public
@@ -34,4 +35,4 @@ frontend:
 
   cache:
     paths:
-      - hugo_extended_0.100.0_Linux-64bit.tar.gz
+      - hugo.tar.gz
