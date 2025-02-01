@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>DevLogg</title>
+    <link>https://fernand3z.dev/</link>
+    <description>Recent content on DevLogg</description>
+    <generator>Hugo -- 0.142.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 31 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://fernand3z.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>https://fernand3z.dev/posts/my-first-post/my-first-post/</link>
+      <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://fernand3z.dev/posts/my-first-post/my-first-post/</guid>
+      <description>Welcome to my first blog post!</description>
+    </item>
+    <item>
+      <title>Getting Started with Rust: A Language Built for Safety</title>
+      <link>https://fernand3z.dev/posts/getting-started-with-rust/</link>
+      <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://fernand3z.dev/posts/getting-started-with-rust/</guid>
+      <description>An introduction to Rust programming language and its key features</description>
+    </item>
+    <item>
+      <title>Docker Containers: A Practical Guide</title>
+      <link>https://fernand3z.dev/posts/docker-containers-explained/</link>
+      <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://fernand3z.dev/posts/docker-containers-explained/</guid>
+      <description>Understanding Docker containers and their role in modern development</description>
+    </item>
+    <item>
+      <title>Machine Learning Fundamentals: A Beginner&#39;s Guide</title>
+      <link>https://fernand3z.dev/posts/machine-learning-basics/</link>
+      <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://fernand3z.dev/posts/machine-learning-basics/</guid>
+      <description>Understanding the basics of machine learning and its applications</description>
+    </item>
+    <item>
+      <title>Web Security Essentials: Protecting Your Applications</title>
+      <link>https://fernand3z.dev/posts/web-security-essentials/</link>
+      <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://fernand3z.dev/posts/web-security-essentials/</guid>
+      <description>Essential security practices for modern web applications</description>
+    </item>
+    <item>
+      <title>Kubernetes for Beginners: Container Orchestration Made Simple</title>
+      <link>https://fernand3z.dev/posts/kubernetes-for-beginners/</link>
+      <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://fernand3z.dev/posts/kubernetes-for-beginners/</guid>
+      <description>A beginner&amp;#39;s guide to understanding Kubernetes and container orchestration</description>
+    </item>
+    <item>
+      <title>GraphQL vs REST: Choosing the Right API Architecture</title>
+      <link>https://fernand3z.dev/posts/graphql-vs-rest/</link>
+      <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://fernand3z.dev/posts/graphql-vs-rest/</guid>
+      <description>A comprehensive comparison of GraphQL and REST API architectures</description>
+    </item>
+    <item>
+      <title>TypeScript Best Practices for Clean Code</title>
+      <link>https://fernand3z.dev/posts/typescript-best-practices/</link>
+      <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://fernand3z.dev/posts/typescript-best-practices/</guid>
+      <description>Essential TypeScript patterns and practices for writing maintainable code</description>
+    </item>
+    <item>
+      <title>Cloud Native Architecture: Building Modern Applications</title>
+      <link>https://fernand3z.dev/posts/cloud-native-architecture/</link>
+      <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://fernand3z.dev/posts/cloud-native-architecture/</guid>
+      <description>Understanding cloud-native principles and best practices</description>
+    </item>
+    <item>
+      <title>Git Workflow Mastery: Best Practices for Teams</title>
+      <link>https://fernand3z.dev/posts/git-workflow-mastery/</link>
+      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://fernand3z.dev/posts/git-workflow-mastery/</guid>
+      <description>Master Git workflows and collaboration techniques for development teams</description>
+    </item>
+    <item>
+      <title>AI Ethics and Bias: Building Responsible AI Systems</title>
+      <link>https://fernand3z.dev/posts/ai-ethics-and-bias/</link>
+      <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://fernand3z.dev/posts/ai-ethics-and-bias/</guid>
+      <description>Understanding and addressing ethical concerns in artificial intelligence</description>
+    </item>
+    <item>
+      <title>Web Performance Optimization: Speed Up Your Site</title>
+      <link>https://fernand3z.dev/posts/web-performance-optimization/</link>
+      <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://fernand3z.dev/posts/web-performance-optimization/</guid>
+      <description>Essential techniques for optimizing web application performance</description>
+    </item>
+  </channel>
+</rss>
