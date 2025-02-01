@@ -3,11 +3,12 @@ frontend:
   phases:
     preBuild:
       commands:
-        # Install Hugo using tar instead of dpkg
+        # Install Hugo in user's home directory
         - wget https://github.com/gohugoio/hugo/releases/download/v0.100.0/hugo_extended_0.100.0_Linux-64bit.tar.gz
         - tar -xzf hugo_extended_0.100.0_Linux-64bit.tar.gz
-        - mkdir -p /usr/local/bin
-        - mv hugo /usr/local/bin/
+        - mkdir -p ~/.local/bin
+        - mv hugo ~/.local/bin/
+        - export PATH="$PATH:$HOME/.local/bin"
         - hugo version
     build:
       commands:
