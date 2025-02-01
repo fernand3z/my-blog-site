@@ -3,6 +3,8 @@ frontend:
   phases:
     preBuild:
       commands:
+        # Initialize git submodules (for theme)
+        - git submodule update --init --recursive
         # Install Hugo in user's home directory
         - wget https://github.com/gohugoio/hugo/releases/download/v0.100.0/hugo_extended_0.100.0_Linux-64bit.tar.gz
         - tar -xzf hugo_extended_0.100.0_Linux-64bit.tar.gz
@@ -12,7 +14,7 @@ frontend:
         - hugo version
     build:
       commands:
-        - hugo --minify
+        - hugo --minify --baseURL $BASEURL
   artifacts:
     # Directory containing the generated site
     baseDirectory: public
