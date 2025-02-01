@@ -34,4 +34,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           # If you use a custom domain, uncomment and update the next line:
-          # cname: yourcustomdomain.com
+          cname: blog.fernand3z.dev
