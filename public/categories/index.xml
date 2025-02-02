@@ -1,67 +1,67 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Categories on DevLogg</title>
-    <link>https://fernand3z.dev/categories/</link>
-    <description>Recent content in Categories on DevLogg</description>
+    <title>Categories on DevLogz</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on DevLogz</description>
     <generator>Hugo -- 0.126.2</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 31 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://fernand3z.dev/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog</title>
-      <link>https://fernand3z.dev/categories/blog/</link>
+      <link>http://localhost:1313/categories/blog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/categories/blog/</guid>
+      <guid>http://localhost:1313/categories/blog/</guid>
       <description></description>
     </item>
     <item>
       <title>Programming</title>
-      <link>https://fernand3z.dev/categories/programming/</link>
+      <link>http://localhost:1313/categories/programming/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/categories/programming/</guid>
+      <guid>http://localhost:1313/categories/programming/</guid>
       <description></description>
     </item>
     <item>
       <title>Devops</title>
-      <link>https://fernand3z.dev/categories/devops/</link>
+      <link>http://localhost:1313/categories/devops/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/categories/devops/</guid>
+      <guid>http://localhost:1313/categories/devops/</guid>
       <description></description>
     </item>
     <item>
       <title>Artificial-Intelligence</title>
-      <link>https://fernand3z.dev/categories/artificial-intelligence/</link>
+      <link>http://localhost:1313/categories/artificial-intelligence/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/categories/artificial-intelligence/</guid>
+      <guid>http://localhost:1313/categories/artificial-intelligence/</guid>
       <description></description>
     </item>
     <item>
       <title>Security</title>
-      <link>https://fernand3z.dev/categories/security/</link>
+      <link>http://localhost:1313/categories/security/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/categories/security/</guid>
+      <guid>http://localhost:1313/categories/security/</guid>
       <description></description>
     </item>
     <item>
       <title>Web-Development</title>
-      <link>https://fernand3z.dev/categories/web-development/</link>
+      <link>http://localhost:1313/categories/web-development/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/categories/web-development/</guid>
+      <guid>http://localhost:1313/categories/web-development/</guid>
       <description></description>
     </item>
     <item>
       <title>Cloud-Computing</title>
-      <link>https://fernand3z.dev/categories/cloud-computing/</link>
+      <link>http://localhost:1313/categories/cloud-computing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/categories/cloud-computing/</guid>
+      <guid>http://localhost:1313/categories/cloud-computing/</guid>
       <description></description>
     </item>
     <item>
       <title>Version-Control</title>
-      <link>https://fernand3z.dev/categories/version-control/</link>
+      <link>http://localhost:1313/categories/version-control/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fernand3z.dev/categories/version-control/</guid>
+      <guid>http://localhost:1313/categories/version-control/</guid>
       <description></description>
     </item>
   </channel>
