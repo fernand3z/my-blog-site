@@ -1,6 +1,6 @@
 baseURL: https://blog.fernand3z.dev/
 languageCode: en-us
-title: DevLogg
+title: DevLogz
 paginate: 5
 theme: ["PaperMod"]
 
