@@ -1,38 +1,58 @@
 version: 1
+env:
+  variables:
+    # Application versions
+    DART_SASS_VERSION: 1.81.0
+    GO_VERSION: 1.23.3
+    HUGO_VERSION: 0.139.3
+    # Time zone
+    TZ: America/Los_Angeles
+    # Cache
+    HUGO_CACHEDIR: ${PWD}/.hugo
+    NPM_CONFIG_CACHE: ${PWD}/.npm
 frontend:
   phases:
     preBuild:
       commands:
-        # 1. Initialize submodules (if you're using themes or modules)
-        - git submodule update --init --recursive
+        # Install Dart Sass
+        - curl -LJO https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz
+        - sudo tar -C /usr/local/bin -xf dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz
+        - rm dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz
+        - export PATH=/usr/local/bin/dart-sass:$PATH
 
-        # 2. Download the Hugo extended version
-        - wget https://github.com/gohugoio/hugo/releases/download/v0.100.0/hugo_extended_0.100.0_Linux-64bit.tar.gz -O hugo.tar.gz
+        # Install Go
+        - curl -LJO https://go.dev/dl/go${GO_VERSION}.linux-amd64.tar.gz
+        - sudo tar -C /usr/local -xf go${GO_VERSION}.linux-amd64.tar.gz
+        - rm go${GO_VERSION}.linux-amd64.tar.gz
+        - export PATH=/usr/local/go/bin:$PATH
 
-        # 3. Extract the tarball
-        - tar -xzf hugo.tar.gz
+        # Install Hugo
+        - curl -LJO https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz
+        - sudo tar -C /usr/local/bin -xf hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz
+        - rm hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz
+        - export PATH=/usr/local/bin:$PATH
 
-        # 4. Place Hugo in a local bin directory (no root privileges in Amplify)
-        - mkdir -p ~/.local/bin
-        - mv hugo ~/.local/bin/hugo
-        - chmod +x ~/.local/bin/hugo
-
-        # 5. Update PATH to include the local bin directory
-        - export PATH=$PATH:$HOME/.local/bin
-
-        # 6. Verify installation
+        # Check installed versions
+        - go version
         - hugo version
+        - node -v
+        - npm -v
+        - sass --embedded --version
 
+        # Install Node.JS dependencies
+        - "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci --prefer-offline || true"
+
+        # https://github.com/gohugoio/hugo/issues/9810
+        - git config --add core.quotepath false
     build:
       commands:
-        # Build the site with your desired flags
-        - hugo --minify --baseURL $BASEURL --cleanDestinationDir --gc
-
+        - hugo --gc --minify
   artifacts:
     baseDirectory: public
     files:
       - '**/*'
-
   cache:
     paths:
-      - hugo.tar.gz
+      - ${HUGO_CACHEDIR}/**/*
+      - ${NPM_CONFIG_CACHE}/**/*
+
