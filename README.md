@@ -99,7 +99,7 @@ You can also deploy your Hugo site to AWS Amplify, which provides continuous dep
 
 2. **Create/Update `amplify.yml`**  
    Within the Hugo site folder (e.g., `my-blog-site`), create an `amplify.yml`:
-   ```yaml
+```yaml
 version: 1
 env:
   variables:
@@ -159,7 +159,7 @@ frontend:
       - ${NPM_CONFIG_CACHE}/**/*
 
 
-   ```
+```
 
 3. **Connect Your Repository**  
    - Open the [AWS Amplify Console](https://console.aws.amazon.com/amplify/).
