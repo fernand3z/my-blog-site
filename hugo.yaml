@@ -17,7 +17,7 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: ExampleSite
   description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
+  keywords: [Blog, Portfolio, PaperMod, tech, developer, software, engineering, coding, programming, projects, tutorials, insights]
   author: Me
   # author: ["Me", "You"] # multiple authors
   images: [] # remove the placeholder and leave empty array for now
