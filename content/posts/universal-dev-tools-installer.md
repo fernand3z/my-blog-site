@@ -10,12 +10,12 @@ Set up your development environment on Linux, macOS, and Windows using a few sim
 
 ## Repository Overview
 
-In the `fernand3z/dev-tools` repository, you'll find a set of scripts designed to automatically install your favorite development tools—such as zsh, oh‑my‑zsh, starship, nvm/node, python3/pip3, docker, git, VS Code, and PyCharm Community Edition—on Linux, macOS, and Windows.
+In the [`fernand3z/dev-toolbox`](https://github.com/fernand3z/dev-toolbox) repository, you'll find a set of scripts designed to automatically install your favorite development tools—such as zsh, oh‑my‑zsh, starship, nvm/node, python3/pip3, docker, git, VS Code, and PyCharm Community Edition—on Linux, macOS, and Windows.
 
 The repository is organized into a few key directories and files:
 
 ```bash
-fernand3z/dev-tools/
+fernand3z/dev-toolbox/
 ├── install.sh           # The master installer that sets permissions and lets you choose an OS.
 ├── linux/
 │   └── install_linux.sh # A universal Linux installer that auto-detects your package manager.
@@ -186,7 +186,7 @@ Explanation:
 
 ## Conclusion
 
-The `fernand3z/dev-tools` repository is a powerful starting point for anyone who wants to automate the setup of a development environment across multiple platforms. By breaking down the script into modular sections—such as sudo management, package manager detection, installation functions, and interactive menus—you can see exactly how each part works and even adapt it for your own needs.
+The [`fernand3z/dev-toolbox`](https://github.com/fernand3z/dev-toolbox) repository is a powerful starting point for anyone who wants to automate the setup of a development environment across multiple platforms. By breaking down the script into modular sections—such as sudo management, package manager detection, installation functions, and interactive menus—you can see exactly how each part works and even adapt it for your own needs.
 
 Whether you're looking to use this script directly or build your own version from scratch, these code sections and explanations should help you understand the process and make modifications as needed.
 
