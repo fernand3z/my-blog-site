@@ -229,6 +229,35 @@
 .dark .home-info .entry-header h1 {
     text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.1);
 }
+
+/* Theme toggle styles */
+#theme-toggle {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+}
+
+#moon {
+    display: block;
+}
+
+#sun {
+    display: none;
+}
+
+.dark #moon {
+    display: none;
+}
+
+.dark #sun {
+    display: block;
+}
+
+/* Remove custom theme toggle styles */
 </style>
 
 <header class="header">
@@ -395,6 +424,21 @@
             if (e.key === 'Escape' && sidebar.classList.contains('active')) {
                 toggleMenu();
                 debugLog('Menu closed with Escape key');
+            }
+        });
+    });
+
+    // Theme toggle script
+    document.addEventListener('DOMContentLoaded', () => {
+        const themeToggle = document.getElementById('theme-toggle');
+        
+        themeToggle.addEventListener('click', () => {
+            if (document.body.classList.contains('dark')) {
+                document.body.classList.remove('dark');
+                localStorage.setItem("pref-theme", "light");
+            } else {
+                document.body.classList.add('dark');
+                localStorage.setItem("pref-theme", "dark");
             }
         });
     });
