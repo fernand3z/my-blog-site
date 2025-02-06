@@ -63,12 +63,13 @@
 }
 
 .footer-content {
-    width: 100%;
+    max-width: 800px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
     padding-bottom: 15px;
+    padding: 0 var(--gap);
 }
 
 .footer-section h3 {
@@ -120,11 +121,14 @@
 }
 
 .footer-bottom {
+    max-width: 800px;
+    margin: 0 auto;
     text-align: center;
     padding-top: 15px;
     border-top: 1px solid rgba(var(--border), 0.2);
     color: var(--secondary);
     font-size: 0.85em;
+    padding: 15px var(--gap) 0;
 }
 
 @media (max-width: 768px) {
