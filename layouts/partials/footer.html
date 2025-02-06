@@ -16,22 +16,35 @@
             </a>
         </div>
 
-        <!-- Quick Links -->
-        <div class="footer-section">
-            <h3>Quick Links</h3>
-            <ul>
-                <li><a href="/posts">Blog Posts</a></li>
-                <li><a href="/archives">Archives</a></li>
-                <li><a href="/search">Search</a></li>
-            </ul>
-        </div>
-
         <!-- Contact/Social -->
         <div class="footer-section">
             <h3>Connect</h3>
-            <ul>
-                <li><a href="https://github.com/fernand3z" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-            </ul>
+            <div class="social-icons">
+                <a href="https://github.com/fernand3z" target="_blank" rel="noopener noreferrer" title="GitHub">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                </a>
+                <a href="https://linkedin.com/in/fernand3z" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect x="2" y="9" width="4" height="12"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                </a>
+                <a href="https://x.com/fernand3z" target="_blank" rel="noopener noreferrer" title="X (Twitter)">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 4l11.733 16h4.267l-11.733-16zM4 20l6.768-8.848M14.017 7.771L20 4"></path>
+                    </svg>
+                </a>
+                <a href="https://fernand3z.com" target="_blank" rel="noopener noreferrer" title="Portfolio">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="2" y1="12" x2="22" y2="12"></line>
+                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                    </svg>
+                </a>
+            </div>
         </div>
     </div>
 
@@ -66,9 +79,8 @@
     max-width: 800px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    padding-bottom: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
     padding: 0 var(--gap);
 }
 
@@ -131,6 +143,35 @@
     padding: 15px var(--gap) 0;
 }
 
+.social-icons {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: var(--secondary);
+    transition: color 0.2s, transform 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    line-height: 0;
+}
+
+.social-icons a:hover {
+    color: var(--primary);
+    transform: translateY(-2px);
+    text-decoration: none;
+}
+
+.social-icons svg {
+    width: 16px;
+    height: 16px;
+}
+
 @media (max-width: 768px) {
     .footer-content {
         grid-template-columns: 1fr;
@@ -143,6 +184,10 @@
     
     .footer {
         padding: 15px;
+    }
+
+    .social-icons {
+        justify-content: center;
     }
 }
 </style>
