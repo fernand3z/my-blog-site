@@ -3,6 +3,8 @@ title: "How to Install Docker and Docker Desktop on Fedora"
 date: "2025-02-07"
 author: "fernand3z"
 description: "Step-by-step guide to installing Docker and Docker Desktop on Fedora."
+tags: ["docker", "fedora", "linux", "containers", "installation", "docker-desktop", "devops"]
+categories: ["Development Tools", "Tutorials", "DevOps"]
 cover:
     image: "/images/posts/docker-install/docker-image.jpg"
     alt: "Docker Logo"
