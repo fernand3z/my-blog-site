@@ -5,8 +5,6 @@ author: "fernand3z"
 description: "A streamlined installer to set up a development environment across Linux, macOS, and Windows."
 ---
 
-# Multi-Platform Development Tools Installer
-
 Setting up a development environment across multiple operating systems can be tedious. To simplify this, the [Multi-Platform Development Tools Installer](https://github.com/fernand3z/dev-toolbox) helps developers install essential tools in a structured and customizable way on Linux, macOS, and Windows.
 
 ## Features

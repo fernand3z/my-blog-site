@@ -9,6 +9,13 @@
     <lastBuildDate>Fri, 07 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>How to Install Docker and Docker Desktop on Fedora</title>
+      <link>http://localhost:1313/posts/how-to-install-docker-and-docker-desktop-on-fedora/how-to-install-docker-and-docker-desktop-on-fedora/</link>
+      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/how-to-install-docker-and-docker-desktop-on-fedora/how-to-install-docker-and-docker-desktop-on-fedora/</guid>
+      <description>Step-by-step guide to installing Docker and Docker Desktop on Fedora.</description>
+    </item>
+    <item>
       <title>Multi-Platform Development Tools Installer</title>
       <link>http://localhost:1313/posts/multi-platform-development-tools-installer/</link>
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
