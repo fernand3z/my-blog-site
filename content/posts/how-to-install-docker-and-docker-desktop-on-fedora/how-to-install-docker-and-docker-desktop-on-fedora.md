@@ -8,7 +8,7 @@ categories: ["Development Tools", "Tutorials", "DevOps"]
 cover:
     image: "/images/posts/docker-install/docker-image.jpg"
     alt: "Docker Logo"
-    caption: "Docker - Container Platform"
+    caption: "Docker - Container Platform. "
     relative: false
     hidden: false
     responsiveImages: true
