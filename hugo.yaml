@@ -72,7 +72,7 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Welcome to DevLogz \U0001F310"
+    Title: "Welcome to DevLogz"
     Content: Devlogz is a blog dedicated to sharing developer insights, technical tutorials, and personal project updates. It serves as a digital log—where software engineers, hobbyists, and tech enthusiasts can find practical tips, coding best practices, and behind-the-scenes stories about building modern software. Whether you’re exploring a new programming language, digging into frameworks, or following along with real-world project logs, Devlogz is a hub for learning, inspiration, and developer-driven discussions.
 
   socialIcons:
