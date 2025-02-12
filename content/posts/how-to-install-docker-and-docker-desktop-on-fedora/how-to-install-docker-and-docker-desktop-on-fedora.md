@@ -32,9 +32,7 @@ alt="Docker Installation on Fedora"
 caption="Docker Logo - Container Platform"
 width="100%"
 position="center"
-style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"
-
-> }}
+style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"> }}
 
 ## Prerequisites
 
