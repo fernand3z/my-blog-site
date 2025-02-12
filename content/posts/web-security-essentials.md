@@ -20,6 +20,16 @@ cover:
 
 As web developers, we're not just building features and creating seamless user experiences – we're also the first line of defense against cyber threats. In this post, I'll walk you through the essential security practices that every web developer should implement in their projects.
 
+{{< figure
+src="/images/posts/web-security.jpg"
+alt="Web Security Essentials"
+caption="Web Security - Protecting Your Applications"
+width="100%"
+position="center"
+style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"
+
+> }}
+
 ## Input Validation and Sanitization
 
 The oldest trick in the book remains one of the most critical security measures. Never trust user input. Whether it's form data, URL parameters, or API requests, always validate and sanitize user input before processing it.
