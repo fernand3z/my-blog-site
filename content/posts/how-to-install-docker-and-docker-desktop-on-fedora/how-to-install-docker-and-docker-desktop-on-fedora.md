@@ -26,14 +26,6 @@ cover:
 
 Docker is a popular containerization platform that allows developers to package applications and their dependencies into lightweight, portable containers. In this guide, we'll walk through the installation of both Docker and Docker Desktop on Fedora.
 
-{{< figure
-src="/images/posts/docker-install/docker-image.jpg"
-alt="Docker Installation on Fedora"
-caption="Docker Logo - Container Platform"
-width="100%"
-position="center"
-style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"> }}
-
 ## Prerequisites
 
 - Fedora 35 or later

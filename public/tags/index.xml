@@ -156,17 +156,31 @@
       <description></description>
     </item>
     <item>
-      <title>Blog</title>
-      <link>http://localhost:1313/tags/blog/</link>
-      <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/blog/</guid>
+      <title>Cybersecurity</title>
+      <link>http://localhost:1313/tags/cybersecurity/</link>
+      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/cybersecurity/</guid>
       <description></description>
     </item>
     <item>
-      <title>First</title>
-      <link>http://localhost:1313/tags/first/</link>
-      <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/first/</guid>
+      <title>Security</title>
+      <link>http://localhost:1313/tags/security/</link>
+      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tech</title>
+      <link>http://localhost:1313/tags/tech/</link>
+      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/tech/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web-Dev</title>
+      <link>http://localhost:1313/tags/web-dev/</link>
+      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/web-dev/</guid>
       <description></description>
     </item>
     <item>
@@ -191,13 +205,6 @@
       <description></description>
     </item>
     <item>
-      <title>Tech</title>
-      <link>http://localhost:1313/tags/tech/</link>
-      <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/tech/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>AI</title>
       <link>http://localhost:1313/tags/ai/</link>
       <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
@@ -209,27 +216,6 @@
       <link>http://localhost:1313/tags/machine-learning/</link>
       <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/machine-learning/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cybersecurity</title>
-      <link>http://localhost:1313/tags/cybersecurity/</link>
-      <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/cybersecurity/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Security</title>
-      <link>http://localhost:1313/tags/security/</link>
-      <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/security/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Web-Dev</title>
-      <link>http://localhost:1313/tags/web-dev/</link>
-      <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/web-dev/</guid>
       <description></description>
     </item>
     <item>

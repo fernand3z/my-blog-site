@@ -37,10 +37,10 @@
       <description></description>
     </item>
     <item>
-      <title>Blog</title>
-      <link>http://localhost:1313/categories/blog/</link>
-      <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/blog/</guid>
+      <title>Security</title>
+      <link>http://localhost:1313/categories/security/</link>
+      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/security/</guid>
       <description></description>
     </item>
     <item>
@@ -55,13 +55,6 @@
       <link>http://localhost:1313/categories/artificial-intelligence/</link>
       <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/artificial-intelligence/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Security</title>
-      <link>http://localhost:1313/categories/security/</link>
-      <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/security/</guid>
       <description></description>
     </item>
     <item>

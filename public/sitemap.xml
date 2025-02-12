@@ -98,17 +98,23 @@
     <loc>http://localhost:1313/posts/universal-dev-tools-installer/</loc>
     <lastmod>2025-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/blog/</loc>
-    <lastmod>2024-01-31T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/cybersecurity/</loc>
+    <lastmod>2024-02-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/blog/</loc>
-    <lastmod>2024-01-31T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/security/</loc>
+    <lastmod>2024-02-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/first/</loc>
-    <lastmod>2024-01-31T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/categories/security/</loc>
+    <lastmod>2024-02-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/my-first-post/my-first-post/</loc>
-    <lastmod>2024-01-31T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/tech/</loc>
+    <lastmod>2024-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/web-security-essentials/</loc>
+    <lastmod>2024-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/web-dev/</loc>
+    <lastmod>2024-02-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/getting-started-with-rust/</loc>
     <lastmod>2024-01-30T00:00:00+00:00</lastmod>
@@ -125,9 +131,6 @@
     <loc>http://localhost:1313/tags/systems/</loc>
     <lastmod>2024-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/tech/</loc>
-    <lastmod>2024-01-30T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/docker-containers-explained/</loc>
     <lastmod>2024-01-29T00:00:00+00:00</lastmod>
   </url><url>
@@ -142,21 +145,6 @@
   </url><url>
     <loc>http://localhost:1313/tags/machine-learning/</loc>
     <lastmod>2024-01-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/cybersecurity/</loc>
-    <lastmod>2024-01-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/security/</loc>
-    <lastmod>2024-01-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/security/</loc>
-    <lastmod>2024-01-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/web-security-essentials/</loc>
-    <lastmod>2024-01-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/web-dev/</loc>
-    <lastmod>2024-01-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/kubernetes/</loc>
     <lastmod>2024-01-26T00:00:00+00:00</lastmod>

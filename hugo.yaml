@@ -1,7 +1,8 @@
 baseURL: https://blog.fernand3z.dev/
 languageCode: en-us
 title: DevLogz
-paginate: 5
+pagination:
+  pagerSize: 5
 theme: ["PaperMod"]
 
 enableRobotsTXT: true
@@ -87,7 +88,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Welcome to DevLogz"
-    Content: Devlogz is a blog dedicated to sharing developer insights, technical tutorials, and personal project updates. It serves as a digital log—where software engineers, hobbyists, and tech enthusiasts can find practical tips, coding best practices, and behind-the-scenes stories about building modern software. Whether you’re exploring a new programming language, digging into frameworks, or following along with real-world project logs, Devlogz is a hub for learning, inspiration, and developer-driven discussions.
+    Content: Devlogz is a blog dedicated to sharing developer insights, technical tutorials, and personal project updates. It serves as a digital log—where software engineers, hobbyists, and tech enthusiasts can find practical tips, coding best practices, and behind-the-scenes stories about building modern software. Whether you're exploring a new programming language, digging into frameworks, or following along with real-world project logs, Devlogz is a hub for learning, inspiration, and developer-driven discussions.
 
   socialIcons:
     - name: x
@@ -106,9 +107,9 @@ params:
       SiteVerificationTag: "XYZabc"
 
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hidden: false # show everywhere
+    hiddenInList: false # show on list pages and home
+    hiddenInSingle: false # show on single page
 
   editPost:
     URL: "https://github.com/fernand3z/my-blog-site/content"
