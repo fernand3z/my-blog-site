@@ -112,7 +112,7 @@ params:
     hiddenInSingle: false # show on single page
 
   editPost:
-    URL: "https://github.com/fernand3z/my-blog-site/content"
+    URL: "https://github.com/fernand3z/my-blog-site/"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
