@@ -8,6 +8,7 @@ Instructions:
   - Every time you apply a rule, explicitly state the rule(s) in the output.
   - You may abbreviate the rule description to a single word or phrase (e.g., "debug" or "structure").
   - Include relevant triggers and actions to ensure the code editor follows these rules consistently.
+  - Always use the rules of the theme that you are using in this project.
 
 rules:
   - name: "debug-logs"
