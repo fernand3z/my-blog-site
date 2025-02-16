@@ -1,6 +1,6 @@
 ---
 title: "Kubernetes for Beginners: Container Orchestration Made Simple"
-date: 202-01-26
+date: 2025-01-26
 description: "A beginner's guide to understanding Kubernetes and container orchestration"
 tags: ["kubernetes", "devops", "containers", "tech"]
 categories: ["devops"]
