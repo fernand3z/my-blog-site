@@ -1,6 +1,6 @@
 ---
 title: "Discover Zen Browser: A New Era of Browsing"
-date: "2024-03-19"
+date: "2024-02-16"
 author: "fernand3z"
 description: "Explore Zen Browser, an open-source Firefox-based browser that prioritizes privacy, customization, and productivity."
 tags:
