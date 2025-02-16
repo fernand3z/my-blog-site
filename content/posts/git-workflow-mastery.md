@@ -1,6 +1,6 @@
 ---
 title: "Git Workflow Mastery: Best Practices for Teams"
-date: 2024-01-22
+date: 2025-01-22
 description: "Master Git workflows and collaboration techniques for development teams"
 tags: ["git", "devops", "collaboration", "tech"]
 categories: ["version-control"]

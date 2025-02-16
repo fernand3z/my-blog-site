@@ -1,6 +1,6 @@
 ---
 title: "Web Performance Optimization: Speed Up Your Site"
-date: 2024-01-20
+date: 2025-01-20
 description: "Essential techniques for optimizing web application performance"
 tags: ["performance", "web-dev", "optimization", "tech"]
 categories: ["web-development"]

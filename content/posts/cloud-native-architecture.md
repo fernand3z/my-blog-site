@@ -1,6 +1,6 @@
 ---
 title: "Cloud Native Architecture: Building Modern Applications"
-date: 2024-01-23
+date: 2025-01-23
 description: "Understanding cloud-native principles and best practices"
 tags: ["cloud", "architecture", "microservices", "tech"]
 categories: ["cloud-computing"]

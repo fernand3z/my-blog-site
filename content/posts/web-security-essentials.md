@@ -1,6 +1,6 @@
 ---
 title: "Web Security Essentials Every Developer Should Know"
-date: 2024-02-12
+date: 2025-02-12
 description: "Essential security practices for modern web applications"
 tags: ["security", "web-dev", "cybersecurity", "tech"]
 categories: ["security"]

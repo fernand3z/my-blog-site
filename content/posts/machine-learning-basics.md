@@ -1,6 +1,6 @@
 ---
 title: "Machine Learning Fundamentals: A Beginner's Guide"
-date: 2024-01-28
+date: 2025-01-28
 description: "Understanding the basics of machine learning and its applications"
 tags: ["machine-learning", "AI", "python", "tech"]
 categories: ["artificial-intelligence"]

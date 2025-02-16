@@ -1,6 +1,6 @@
 ---
 title: "TypeScript Best Practices for Clean Code"
-date: 2024-01-24
+date: 2025-01-24
 description: "Essential TypeScript patterns and practices for writing maintainable code"
 tags: ["typescript", "javascript", "programming", "tech"]
 categories: ["programming"]

@@ -1,6 +1,6 @@
 ---
 title: "Docker Containers: A Practical Guide"
-date: 2024-01-29
+date: 2025-01-29
 description: "Understanding Docker containers and their role in modern development"
 tags: ["docker", "devops", "containers", "tech"]
 categories: ["devops"]

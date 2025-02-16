@@ -1,6 +1,6 @@
 ---
 title: "Getting Started with Rust: A Language Built for Safety"
-date: 2024-01-30
+date: 2025-01-30
 description: "An introduction to Rust programming language and its key features"
 tags: ["rust", "programming", "systems", "tech"]
 categories: ["programming"]

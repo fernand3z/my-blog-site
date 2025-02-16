@@ -1,6 +1,6 @@
 ---
 title: "GraphQL vs REST: Choosing the Right API Architecture"
-date: 2024-01-25
+date: 2025-01-25
 description: "A comprehensive comparison of GraphQL and REST API architectures"
 tags: ["graphql", "rest", "api", "tech"]
 categories: ["web-development"]

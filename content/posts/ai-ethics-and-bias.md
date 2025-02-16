@@ -1,6 +1,6 @@
 ---
 title: "AI Ethics and Bias: Building Responsible AI Systems"
-date: 2024-01-21
+date: 2025-01-21
 description: "Understanding and addressing ethical concerns in artificial intelligence"
 tags: ["AI", "ethics", "machine-learning", "tech"]
 categories: ["artificial-intelligence"]
