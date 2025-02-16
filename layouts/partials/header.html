@@ -266,7 +266,7 @@
             {{- $label_text := (site.Params.label.text | default site.Title) }}
             {{- if site.Title }}
             <a href="{{ "" | absLangURL }}" accesskey="h" title="{{ $label_text }} (Alt + H)">
-                <img src="/favicon.png" alt="" aria-label="logo" height="30">
+                <img src="/favicon.ico" alt="" aria-label="logo" height="30">
                 {{- $label_text -}}
             </a>
             {{- end }}

@@ -59,15 +59,15 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "/favicon.png"
-    favicon16x16: "/favicon.png"
-    favicon32x32: "/favicon.png"
-    apple_touch_icon: "/favicon.png"
-    safari_pinned_tab: "/favicon.png"
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon.ico"
+    favicon32x32: "/favicon.ico"
+    apple_touch_icon: "/favicon.ico"
+    safari_pinned_tab: "/favicon.ico"
 
   label:
     text: "DevLogz"
-    icon: /favicon.png
+    icon: /favicon.ico
     iconHeight: 30
 
   # profile-mode
