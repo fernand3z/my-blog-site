@@ -1,9 +1,11 @@
 ---
-title: "Web Development Learning Guide: Free Resources & Roadmap"
-date: 2025-02-19
-description: "A comprehensive guide outlining a clear roadmap and curating the best free resources to help you become a proficient web developer."
-tags: ["web development", "programming", "learning", "tutorial", "roadmap"]
-categories: ["Web Development", "Programming", "Education"]
+title: "Complete Web Development Roadmap 2024: Free Resources & Learning Guide"
+date: 2024-02-19
+description: "Master web development with this comprehensive 2024 roadmap. Learn HTML, CSS, JavaScript, React, Node.js, and more using free resources. Perfect for beginners to advanced developers."
+summary: "A complete guide to becoming a full-stack web developer in 2024, featuring curated free resources, monthly learning plans, and expert tips. Includes HTML, CSS, JavaScript, React, Node.js, and more."
+keywords: ["web development roadmap", "learn web development", "free coding resources", "web development guide", "full stack developer", "frontend development", "backend development", "programming tutorials", "coding bootcamp alternative", "2024 developer guide"]
+tags: ["web development", "programming", "learning", "tutorial", "roadmap", "javascript", "react", "nodejs", "frontend", "backend", "full stack"]
+categories: ["Web Development", "Programming", "Education", "Technology", "Software Development"]
 author: "Your Name"
 showToc: true
 TocOpen: true
@@ -12,12 +14,14 @@ hidemeta: false
 comments: true
 cover:
     image: "images/posts/web-dev-image.jpg"
-    alt: "Web Development Learning Guide"
-    caption: "Complete Web Development Learning Guide"
+    alt: "Web Development Roadmap 2024 - Complete Learning Guide with Free Resources"
+    caption: "Comprehensive Web Development Learning Guide for 2024"
+weight: 1
+searchHidden: false
 ---
 
 ## Introduction
-Embarking on your web development journey doesn't have to be expensive. This comprehensive guide outlines a clear roadmap and curates the best free resources to help you become a proficient web developer.
+Embarking on your web development journey in 2024 doesn't have to be expensive. This comprehensive guide outlines a clear roadmap and curates the best free resources to help you become a proficient web developer.
 
 ## 🗺️ Complete Web Development Roadmap
 
