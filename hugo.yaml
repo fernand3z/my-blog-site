@@ -37,7 +37,9 @@ params:
   # author: ["Me", "You"] # multiple authors
   images: [] # remove the placeholder and leave empty array for now
   DateFormat: "January 2, 2006"
-  defaultTheme: dark # dark, light
+  # Theme configuration - controls the default appearance (light/dark)
+  # Users can still toggle between themes if disableThemeToggle is false
+  defaultTheme: light # dark, light
   disableThemeToggle: false
 
   ShowReadingTime: true
